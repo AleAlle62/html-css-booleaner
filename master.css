@@ -40,8 +40,66 @@ header{
 }
 
 mark{
-    background-color: #fffd8f;
-  color: #000066
+    background-color: #fffb00;
 }
 
+table {
+    /* //STILE DELLA TABELLA */
+    border:1px solid;
+    width:100%;
+    height:auto;
+    border-collapse: collapse;
+    table-layout:auto; 
+    }
+    
+    table tr td , table tr th {
+    /* //BORDI */
+    border:1px solid
+    }
 
+
+.uno{
+    background-color: rgb(25, 9, 243);
+    color: white;
+    font-size:18px;
+    text-align: left;
+}
+
+.due{
+    background-color: aqua;
+    text-align: left;
+    height: 80px;
+}
+
+.tre{
+    background-color: white;
+    text-align: left;
+    height: 80px 
+}
+
+.potrebbe{
+    color:gray ;
+}
+
+.immagineuno{
+    background-image: url('../img/monitor.jpg');
+    position: relative;
+    padding: 100px;
+    background-repeat: no-repeat;
+}
+
+.white{
+    position: absolute;
+    color: white;
+    left: 0px;
+    top: 0%;
+    font-size: 30px;
+    
+}
+
+.immaginedue{
+    position: relative;
+    background-image: url('../img/graph.jpg');
+    padding: 100px;
+    background-repeat: no-repeat;
+}
