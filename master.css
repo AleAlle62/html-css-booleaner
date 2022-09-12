@@ -1,5 +1,12 @@
-body{
+
+header{
     background-image: url(img/pattern.png);
+    background-color: aquamarine;
+    background-size: 10%;
+}
+
+.sfondo{
+    width: 400px;
 }
 
 
@@ -16,3 +23,25 @@ body{
     opacity: 0.6;
     margin-top: 0%;
 }
+
+
+.foto1{
+    background-image: url(img/tim-1.jpg);
+    height: 300px;
+    width: 500px;
+    display: inline-block;
+}
+
+.foto2{
+    background-image: url(img/tim-2.jpg);
+    height: 300px;
+    width: 450px;
+    display: inline-block;
+}
+
+mark{
+    background-color: #fffd8f;
+  color: #000066
+}
+
+
