@@ -1,14 +1,19 @@
 .background{
-    background-image: url(pattern.png);
+    background-image: url(img/pattern.png);
     background-size: cover;
 }
 
 
 .scritto{
     display: inline-block;
-    opacity: 0.3;
+    opacity: 0.6;
 }
 .thebooleaners{
     display: inline-block;
     color: rgb(0, 153, 255);
+}
+
+.data{
+    opacity: 0.6;
+    margin-top: 0%;
 }
