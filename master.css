@@ -1,3 +1,9 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 
 header{
     background-image: url(img/pattern.png);
@@ -45,7 +51,7 @@ mark{
 
 table {
     /* //STILE DELLA TABELLA */
-    border:1px solid;
+    border:0px ;
     width:100%;
     height:auto;
     border-collapse: collapse;
@@ -54,7 +60,7 @@ table {
     
     table tr td , table tr th {
     /* //BORDI */
-    border:1px solid
+    border:0px solid
     }
 
 
